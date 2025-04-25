@@ -17,33 +17,33 @@ const Footer = () => {
                   className="h-11 w-auto"
                 />
               </a>
-              <h2 className="text-2xl font-bold text-amber-800  ">Delta Code</h2>
+              <h2 className="text-2xl font-bold text-white-800  ">Delta Code</h2>
             </div>
             <p className="text-gray-200 mb-4">
               Premier IT education institute providing cutting-edge technology courses and certifications.
             </p>
             <div className="flex gap-4">
               <a href="#" className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition">
-                {/* <FaFacebook className="text-lg" /> */}
+                <FaFacebook className="text-lg" />
               </a>
               <a href="#" className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition">
-                {/* <FaLinkedin className="text-lg" /> */}
+                <FaLinkedin className="text-lg" />
               </a>
               <a href="#" className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition">
-                {/* <SiFiverr className="text-lg" /> */}
+                <SiFiverr className="text-lg" />
               </a>
               <a href="#" className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition">
-                {/* <SiUpwork className="text-lg" /> */}
+                <SiUpwork className="text-lg" />
               </a>
               <a href="#" className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition">
-                {/* <FaGithub className="text-lg" /> */}
+                <FaGithub className="text-lg" />
               </a>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl text-amber-800 font-semibold mb-6 pb-2 border-b border-white/20">Quick Links</h3>
+            <h3 className="text-xl text-white-800 font-semibold mb-6 pb-2 border-b border-white/20">Quick Links</h3>
             <ul className="space-y-3">
               {['Home', 'Courses', 'About', 'Faculty', 'Contact'].map((item) => (
                 <li key={item}>
@@ -61,7 +61,7 @@ const Footer = () => {
 
           {/* Courses */}
           <div>
-            <h3 className="text-xl font-semibold mb-6 pb-2 border-b border-white/20 text-amber-800 ">Our Courses</h3>
+            <h3 className="text-xl font-semibold mb-6 pb-2 border-b border-white/20 text-white-800 ">Our Courses</h3>
             <ul className="space-y-3">
               {[
                 'AI & Machine Learning',  
@@ -83,10 +83,10 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-semibold mb-6 pb-2 border-b border-white/20 text-amber-800 ">Contact Us</h3>
+            <h3 className="text-xl font-semibold mb-6 pb-2 border-b border-white/20 text-white-800 ">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
-                {/* <FaMapMarkerAlt className="mt-1 mr-3 text-blue-300" /> */}
+                <FaMapMarkerAlt className="mt-1 mr-3 text-blue-300" />
                 <span className="text-gray-200">123 Tech Park, IT Tower, Karachi, Pakistan</span>
               </li>
               <li className="flex items-center">
@@ -94,7 +94,7 @@ const Footer = () => {
                 <span className="text-gray-200">+92 300 1234567</span>
               </li>
               <li className="flex items-center">
-                {/* <FaEnvelope className="mr-3 text-blue-300" /> */}
+                <FaEnvelope className="mr-3 text-blue-300" />
                 <span className="text-gray-200">info@deltacode.edu.pk</span>
               </li>
             </ul>

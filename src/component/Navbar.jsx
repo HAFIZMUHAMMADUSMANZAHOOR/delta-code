@@ -28,12 +28,12 @@ const Navbar = () => {
           {/* <a href="#" className=" text-black px-4 py-2 rounded-md font-extrabold text-x1 relative">
             D<span className="text-red-500">C</span>
           </a> */}
-          <a href="#" className="text-2xl font-bold text-blue-900 no-underline text-red-800">Delta Code</a>
+          <a href="#" className="text-2xl font-bold text-white-900 no-underline text-red-1200">Delta Code</a>
         </div>
 
         <div className="hidden md:flex items-center gap-8">
           <ul className="flex gap-8 list-none">
-            {['Home', 'Services', 'Our Process', 'Testimonials', 'About', 'Contact'].map((item) => (
+            {['Home', 'Services', 'Our Progress', 'Testimonials', 'About', 'Contact'].map((item) => (
               <li key={item}>
                 <a 
                   href={`#${item.toLowerCase().replace(' ', '-')}`}
@@ -65,7 +65,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`md:hidden bg-white w-full px-4 py-2 shadow-lg transition-all duration-300 ${isMenuOpen ? 'block' : 'hidden'}`}>
         <ul className="flex flex-col gap-4 list-none">
-          {['Home', 'Services', 'Our Process', 'Testimonials', 'About', 'Contact'].map((item) => (
+          {['Home', 'Services', 'Our progress', 'Testimonials', 'About', 'Contact'].map((item) => (
             <li key={item}>
               <a 
                 href={`#${item.toLowerCase().replace(' ', '-')}`}

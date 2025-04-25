@@ -4,7 +4,7 @@ const Services = () => {
         <div className="container mx-auto px-4">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Achievements</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Progress</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Comprehensive solutions to grow your business in the digital world
             </p>
