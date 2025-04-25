@@ -1,5 +1,5 @@
-// import { FaFacebook, FaLinkedin, FaGithub, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
-// import { SiFiverr, SiUpwork } from 'react-icons/si';
+import { FaFacebook, FaLinkedin, FaGithub, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
+import { SiFiverr, SiUpwork } from 'react-icons/si';
 import img1 from "../assets/Images/logo.png"
 
 const Footer = () => {
